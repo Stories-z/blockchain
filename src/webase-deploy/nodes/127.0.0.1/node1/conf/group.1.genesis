@@ -1,0 +1,20 @@
+[consensus]
+    ; consensus algorithm type, now support PBFT(consensus_type=pbft) and Raft(consensus_type=raft)
+    consensus_type=pbft
+    ; the max number of transactions of a block
+    max_trans_num=1000
+    ; the node id of consensusers
+    node.0=3072a2cae6f1bb48effc4b7fec0bd0126a75d6456724a3f493bb52d837615946548eb417636d2272e449e7bc14ad8ce9f5e992010bc1b305066c24ff5ada5449
+    node.1=07d28e4f34506789f0942803a89755b7fdad9cc67be6b190adce79c406cd99a11f0a79e43b0eb8cd741a7c4fb504fed76eea2cbfd881c97ed6bceb41a4f0de07
+    node.2=eff0df8ab28cd8acb417c40a068c501624cbf78feff9ba38be9058f28852d62bd6df36a59108913e0a46e1472a50253cda72c6d0247b4704aa9aae7dbaf6d52a
+    node.3=f2d00113b1d5763a0dda63122d0aade4262c762dd278289eb2d208486a24e2bbc75f4fdac7c728aa6af589e6e27e47d96cb6abd7be7354d2c4f973937898a212
+    
+[state]
+    ; support mpt/storage
+    type=storage
+[tx]
+    ; transaction gas limit
+    gas_limit=300000000
+[group]
+    id=1
+    timestamp=1576112519000

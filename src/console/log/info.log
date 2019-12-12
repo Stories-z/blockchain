@@ -1,0 +1,105 @@
+[INFO] [2019-12-12 08:45:36] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Thu Dec 12 08:45:36 CST 2019]; root of context hierarchy
+[INFO] [2019-12-12 08:45:36] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-12-12 08:45:38] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20201
+[INFO] [2019-12-12 08:45:38] ChannelConnections.initDefaultCertConfig(80) |  sslCert:sdk.crt configured in applicationContext.xml not exist, use default setting: classpath:node.crt  
+[INFO] [2019-12-12 08:45:38] ChannelConnections.initDefaultCertConfig(98) |  sslKey:sdk.key configured in applicationContext.xml not exist, use default setting: classpath:node.key  
+[INFO] [2019-12-12 08:45:38] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20201
+[INFO] [2019-12-12 08:45:38] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20201 success, ctx: 1506204247
+[INFO] [2019-12-12 08:45:39] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20201, seq: ab477b4c05034ba5bbcb8e55f006c91f, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-12-12 08:45:39] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-12-12 08:45:39] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-12-12 08:45:39] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20201, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-12-12 08:45:39] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 8f5c33df05fc485aa8e4a5c47fec2c73, content: ["_block_notify_1"]
+[INFO] [2019-12-12 08:45:39] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20201, seq: e8a52c03bde04a6cb0061faa8c10770e, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-12-12 08:45:39] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20201, blockNumber: 5859 
+[INFO] [2019-12-12 08:45:49] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:45:59] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:46:09] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:46:19] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:46:29] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:46:39] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:46:49] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:46:59] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:47:09] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:47:19] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:47:29] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:47:39] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:48:04] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Thu Dec 12 08:48:04 CST 2019]; root of context hierarchy
+[INFO] [2019-12-12 08:48:04] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-12-12 08:48:06] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20201
+[INFO] [2019-12-12 08:48:06] ChannelConnections.initDefaultCertConfig(80) |  sslCert:sdk.crt configured in applicationContext.xml not exist, use default setting: classpath:node.crt  
+[INFO] [2019-12-12 08:48:06] ChannelConnections.initDefaultCertConfig(98) |  sslKey:sdk.key configured in applicationContext.xml not exist, use default setting: classpath:node.key  
+[INFO] [2019-12-12 08:48:06] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20201
+[INFO] [2019-12-12 08:48:06] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20201 success, ctx: 567480884
+[INFO] [2019-12-12 08:48:07] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20201, seq: fb0222346c024451885010a2e761cfae, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-12-12 08:48:07] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-12-12 08:48:07] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-12-12 08:48:07] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20201, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-12-12 08:48:07] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 5e50a5338ac84fc79983a63e460a819b, content: ["_block_notify_1"]
+[INFO] [2019-12-12 08:48:07] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20201, seq: ad47048af2b6470fb10430293d94f2c2, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-12-12 08:48:07] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20201, blockNumber: 5859 
+[INFO] [2019-12-12 08:48:10] Async.run(19) |  default set setExeutor , pool size is 50
+[INFO] [2019-12-12 08:48:10] Async.setExeutor(81) |  set setExeutor because executor null, executor is java.util.concurrent.ThreadPoolExecutor@1edb61b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+[INFO] [2019-12-12 08:48:11] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5860,"groupID":1}
+
+[INFO] [2019-12-12 08:48:17] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:48:27] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:48:37] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:48:59] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Thu Dec 12 08:48:59 CST 2019]; root of context hierarchy
+[INFO] [2019-12-12 08:48:59] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-12-12 08:49:01] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20201
+[INFO] [2019-12-12 08:49:01] ChannelConnections.initDefaultCertConfig(80) |  sslCert:sdk.crt configured in applicationContext.xml not exist, use default setting: classpath:node.crt  
+[INFO] [2019-12-12 08:49:01] ChannelConnections.initDefaultCertConfig(98) |  sslKey:sdk.key configured in applicationContext.xml not exist, use default setting: classpath:node.key  
+[INFO] [2019-12-12 08:49:02] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20201
+[INFO] [2019-12-12 08:49:02] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20201 success, ctx: 567480884
+[INFO] [2019-12-12 08:49:02] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20201, seq: b9a3af0bb2a7434586c3b192724eda29, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-12-12 08:49:02] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-12-12 08:49:02] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-12-12 08:49:02] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20201, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-12-12 08:49:03] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 476370a1150545e28f33facb8aee1c6a, content: ["_block_notify_1"]
+[INFO] [2019-12-12 08:49:03] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20201, seq: 7ce6aa1562fb429591cec01c9e4cf940, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-12-12 08:49:03] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20201, blockNumber: 5860 
+[INFO] [2019-12-12 08:49:11] Async.run(19) |  default set setExeutor , pool size is 50
+[INFO] [2019-12-12 08:49:11] Async.setExeutor(81) |  set setExeutor because executor null, executor is java.util.concurrent.ThreadPoolExecutor@36ac8a63[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+[INFO] [2019-12-12 08:49:11] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5861,"groupID":1}
+
+[INFO] [2019-12-12 08:49:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:49:20] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5862,"groupID":1}
+
+[INFO] [2019-12-12 08:49:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:49:30] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5863,"groupID":1}
+
+[INFO] [2019-12-12 08:49:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:49:39] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5864,"groupID":1}
+
+[INFO] [2019-12-12 08:49:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:49:50] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5865,"groupID":1}
+
+[INFO] [2019-12-12 08:49:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:50:00] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5866,"groupID":1}
+
+[INFO] [2019-12-12 08:50:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:50:09] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5867,"groupID":1}
+
+[INFO] [2019-12-12 08:50:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:50:20] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5868,"groupID":1}
+
+[INFO] [2019-12-12 08:50:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:50:29] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5869,"groupID":1}
+
+[INFO] [2019-12-12 08:50:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:50:40] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5870,"groupID":1}
+
+[INFO] [2019-12-12 08:50:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:50:49] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5871,"groupID":1}
+
+[INFO] [2019-12-12 08:50:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-12-12 08:50:59] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5872,"groupID":1}
+
+[INFO] [2019-12-12 08:51:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
